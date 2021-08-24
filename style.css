@@ -38,7 +38,6 @@ p{
 /* header */
 .header{
     background: #22C3A3;
-    padding: 10px 0;
 }
 .header-left{
     width: 40%;
@@ -48,7 +47,7 @@ p{
     font-size: 25px;
     text-decoration: none;
     display: inline-block;
-    line-height: 39px;
+    line-height: 62px;
 }
 .header-right{
     width: 60%;
@@ -64,7 +63,7 @@ p{
 .h-menu ul li a {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 20px 20px;
     color: #cef2eb;
     font-size: 19px;
     transition: .5s;
