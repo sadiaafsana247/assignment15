@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.t-center{
+    text-align: center;
+}
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+h1,h2,h3,h4,h5,h6,span,a{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: #767676;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* header */
+.header{
+    background: #22C3A3;
+    padding: 10px 0;
+}
+.header-left{
+    width: 40%;
+}
+.header-left a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 39px;
+}
+.header-right{
+    width: 60%;
+}
+.h-menu ul{
+    list-style: none;
+    text-align: right;
+}
+.h-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.h-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #cef2eb;
+    font-size: 19px;
+    transition: .5s;
+}
+.h-menu ul li a:hover{
+    background:#1b9e84;
+    color: #fff;
+}
+/* Banner */
+.banner{
+    background: url(img/header-bg01.jpg) no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+}
+.banner h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner p {
+    margin-top: 15px;
+    font-size: 21px;
+    color: #cef2eb;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner a {
+    text-decoration: none;
+    margin-top: 44px;
+    display: inline-block;
+    width: 168px;
+    font-size: 25px;
+    color: #cef2eb;
+    border: 2px solid #cef2eb;
+    padding: 13px 5px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Service */
+.service {
+    text-align: center;
+    padding: 110px 0;
+    border-bottom: 2px solid #22C3A3;
+}
+.service-title h2 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+.service-title p {
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.service-item {
+    float: left;
+    width: 23.8%;
+    margin-right: 16px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 27%);
+    padding: 28px 19px;
+}
+.service-item:last-child{
+    margin-right: 0;
+}
+.service-item span {
+    font-size: 34px;
+    color: #0DBF9B;
+}
+.service-item h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.service-item p {
+    margin-top: 15px;
+    font-size: 17px;
+}
+/* about  */
+.about {
+    padding: 80px 0;
+}
+.about-title h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about-title p{
+    
+}
+.about-item {
+    margin-top: 70px;
+}
+.about-left{
+    width: 50%;
+}
+.about-left img{
+    width: 450px;
+}
+.about-right{
+    width: 50%;
+    color: #767676;
+}
+.about-right h4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.about-right p{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+/* Contact */
+.contact{
+    background: #F6F6F6;
+    padding: 70px 0;
+}
+.contact-title h3 {
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+.contact-item {
+    float: left;
+    width: 31%;
+    text-align: center;
+    margin-top: 60px;
+}
+.contact-item span {
+    color: #0DBF9B;
+    font-size: 25px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+/* footer  */
+.footer-top {
+    background: #0DBF9B;
+    padding: 10px 0;
+}
+.footer-top ul{
+    list-style: none;
+}
+.footer-top ul li{
+    display: inline-block;
+}
+.footer-top ul li a {
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    transition: .5s;
+    color: #fff;
+}
+.footer-top ul li a:hover{
+    transform: scale(1.2);
+}
+
+.footer-bottom{
+    background: #000;
+    padding: 12px 0;
+}
+.footer-bottom p{
+    color: #767676;
+    font-size: 18px;
+}
